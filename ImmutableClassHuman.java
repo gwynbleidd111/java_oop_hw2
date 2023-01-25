@@ -2,7 +2,7 @@ public final class ImmutableClassHuman {
     private String name;
     private int age;
 
-    public ImmutableClassHuman(final String name, final int age) {
+    public ImmutableClassHuman(String name, int age) {
         this.name = name;
         this.age = age;
     }
