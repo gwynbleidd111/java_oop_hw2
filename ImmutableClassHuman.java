@@ -7,7 +7,7 @@ public final class ImmutableClassHuman {
         this.age = age;
     }
 
-    public ImmutableClassHuman(ImmutableClassHuman other){
+    public ImmutableClassHuman(ImmutableClassHuman other) {
         this(other.getName(), other.getAge());
     }
 
@@ -16,6 +16,6 @@ public final class ImmutableClassHuman {
     }
 
     public String getName() {
-       return (String)name;
+        return (String) name;
     }
 }
